@@ -1,0 +1,19 @@
+.game-container{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center
+}
+.game-container:hover{
+  color: white;
+  background-color: black;
+  cursor: pointer
+}

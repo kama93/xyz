@@ -1,0 +1,35 @@
+.body-datail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px
+}
+
+.detailGame-title{
+    margin-bottom: 20px
+}
+
+.detailGame-description{
+    width: 80%;
+    margin-bottom: 100px;
+    text-align: center
+}
+
+.add-header{
+  margin-bottom: 50px;  
+}
+
+.submit-button{
+    margin-left: 20px
+}
+
+.codes{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    width: 150px;
+    margin: 20px;
+    text-align: center
+}
