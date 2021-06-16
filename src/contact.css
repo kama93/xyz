@@ -14,6 +14,7 @@
 .contact-container h3{
    color: #539DC2;
    font-family: 'Big Shoulders Stencil Display', cursive;	
+    font-size: 30px
 }
 
 .contact-container hr{
@@ -23,5 +24,20 @@
 }
 
 .form-contact{
-   width: 80%
+   width: 80%;
 }
+
+.form-contact .form-control{
+   border-color: #539DC2
+}
+
+.contact-question{
+   font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contact-fill{
+   font-family: 'Roboto Slab', serif;
+}
+
