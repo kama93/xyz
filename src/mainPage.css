@@ -1,3 +1,9 @@
+.main-div{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
 .main-part-container{
   display: flex;
   flex-direction: row;
@@ -84,4 +90,10 @@
   height: auto;
   z-index: 1000;
   margin-top: 100px
+}
+
+.contact-main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center
 }

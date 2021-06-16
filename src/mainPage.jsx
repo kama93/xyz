@@ -4,11 +4,12 @@ import Button from 'react-bootstrap/Button';
 import Menu from './menu';
 import Info from './info-container'
 import Card from './card';
+import Contact from './contact'
 import { games } from './games';
 
 function MainPage() {
   return (
-    <div>
+    <div className='main-div'>
     <Menu/>
     <div className='body-container'>
     <h1 className='title'>Make friends in your favorites games</h1>
@@ -34,6 +35,9 @@ function MainPage() {
     <img src='img/picture3.png' alt='gaming'/>
     </div>
     </div>
+    </div>
+    <div className='contact-main-container'>
+    <Contact/>
     </div>
     </div>
   );
