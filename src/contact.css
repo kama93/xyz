@@ -28,7 +28,8 @@
 }
 
 .form-contact .form-control{
-   border-color: #539DC2
+   border-color: #539DC2;
+   font-family: 'Roboto Slab', serif;
 }
 
 .contact-question{
@@ -39,5 +40,9 @@
 
 .contact-fill{
    font-family: 'Roboto Slab', serif;
+}
+
+.button-contact{
+font-family: 'Roboto Slab', serif;
 }
 

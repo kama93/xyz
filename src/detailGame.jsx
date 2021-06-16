@@ -9,10 +9,7 @@ import { useParams } from "react-router-dom";
 function DetailGame(e) {
     let { id } = useParams();
     id--;
-
-    const handleChange= () => {
-        games[id].code.push(e.target.value)
-    }
+    
   return(
     <div className='detail'>
         <Menu/>

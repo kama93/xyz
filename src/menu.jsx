@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import './menu.css';
 import Nav from 'react-bootstrap/Nav';
@@ -8,7 +8,7 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGamepad, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 
 function Menu() {
   return (

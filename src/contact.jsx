@@ -20,7 +20,7 @@ function Contact() {
     <Form.Control as="textarea" placeholder="Message" rows={10} />
   </Form.Group>
 </Form>
-   <Button variant="outline-info" className='button-code'>SEND</Button>
+   <Button variant="outline-info" className='button-contact'>SEND</Button>
    </div>
   );
 }
