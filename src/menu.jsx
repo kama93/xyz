@@ -21,9 +21,9 @@ function Menu() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto" sticky="top" >
-    <NavDropdown title="Menu" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1"> Add new Game</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Contact</NavDropdown.Item>
+    <NavDropdown title="Menu" id="collasible-nav-dropdown" className="menu-font">
+        <NavDropdown.Item href="#action/3.1" className="menu-font"> Add new Game</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2" className="menu-font">Contact</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">
             <div className='language'>
@@ -38,10 +38,10 @@ function Menu() {
       <FormControl
         type="search"
         placeholder="Search"
-        className="mr-2"
+        className="mr-2 form-search"
         aria-label="Search"
       />
-      <Button variant="outline-secondary">Search</Button>
+      <Button variant="outline-secondary" className='button-search'>Search</Button>
     </Form>
     </Nav>
     </Navbar.Collapse>

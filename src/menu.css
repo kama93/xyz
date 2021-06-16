@@ -1,6 +1,5 @@
 .gamepad-icon{
     font-size: 40px;
-    /* margin-left: 20px; */
     color: black
 }
 .dropdown-menu, .form-inline{
@@ -21,4 +20,13 @@
     margin: 5px;
 }
 
+.button-discover{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px
+}
+
+.form-search, .button-search, .menu-font{
+   font-family: 'Roboto Slab', serif;
+    font-size: 15px
+}
 

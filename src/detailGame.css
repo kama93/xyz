@@ -1,3 +1,10 @@
+/* .detail{
+background: url(../img/gaming.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+} */
 .body-datail-container{
     display: flex;
     flex-direction: column;
@@ -7,21 +14,27 @@
 }
 
 .detailGame-title{
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 .detailGame-description{
     width: 80%;
     margin-bottom: 100px;
-    text-align: center
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px
 }
 
 .add-header{
   margin-bottom: 50px;  
+  font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
-.submit-button{
-    margin-left: 20px
+.button-code{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin: 20px
 }
 
 .codes{
