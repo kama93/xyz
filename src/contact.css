@@ -1,20 +1,20 @@
 .contact-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-    background-color: white;
-    width: 60vw;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+   background-color: white;
+   width: 60vw;
+   border-radius: 10px;
+   padding: 20px;
+   text-align: center
 }
 
 .contact-container h3{
    color: #539DC2;
    font-family: 'Big Shoulders Stencil Display', cursive;	
-    font-size: 30px
+   font-size: 30px
 }
 
 .contact-container hr{
@@ -34,8 +34,8 @@
 
 .contact-question{
    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Roboto Slab', serif;
+   font-weight: bold;
+   font-family: 'Roboto Slab', serif;
 }
 
 .contact-fill{
@@ -43,6 +43,6 @@
 }
 
 .button-contact{
-font-family: 'Roboto Slab', serif;
+   font-family: 'Roboto Slab', serif;
 }
 
