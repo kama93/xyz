@@ -1,24 +1,24 @@
 .gamepad-icon{
-    font-size: 60px;
-    margin-left: 20px;
+    font-size: 40px;
+    /* margin-left: 20px; */
     color: black
 }
-.dropdown{
-    margin-left: 82%
+.dropdown-menu, .form-inline{
+    margin: 10px !important
 }
+
 .dropdown a{
     text-decoration: none;
     color: black
 }
-.bar-icon{
-    font-size: 30px;
-    margin-right: 10px
-}
+
 .language{
     display: flex;
     flex-direction: row;
 }
 .flag-image{
     width: 30px;
-    margin: 5px
+    margin: 5px;
 }
+
+

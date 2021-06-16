@@ -1,6 +1,4 @@
 .game-container{
-  width: 400px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
